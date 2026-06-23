@@ -1,0 +1,10 @@
+# Core app (dashboard + models)
+flask==3.1.3
+pandas==3.0.3
+numpy==2.4.6
+scikit-learn==1.9.0
+xgboost==3.3.0
+scipy==1.18.0
+
+# Deck generation (optional — only needed to run make_deck.py)
+python-pptx==1.0.2
