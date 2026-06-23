@@ -164,5 +164,6 @@ def sample_events():
 
 
 if __name__ == "__main__":
-    print("Event Congestion Command Center -> http://127.0.0.1:5050")
-    app.run(host="127.0.0.1", port=5050, debug=False)
+    port = int(os.environ.get("PORT", 5050))
+    print(f"Event Congestion Command Center -> http://0.0.0.0:{port}")
+    app.run(host="0.0.0.0", port=port, debug=False)

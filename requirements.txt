@@ -6,5 +6,8 @@ scikit-learn==1.9.0
 xgboost==3.3.0
 scipy==1.18.0
 
+# Production WSGI server (used on Render)
+gunicorn==23.0.0
+
 # Deck generation (optional — only needed to run make_deck.py)
 python-pptx==1.0.2
